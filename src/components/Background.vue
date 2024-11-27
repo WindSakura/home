@@ -38,7 +38,7 @@ const bgRandom = Math.floor(Math.random() * 10 + 1);
 
 // 更换壁纸链接
 const changeBg = (type) => {
-  if (type == 0) {
+if (type == 0) {
   // 修改此处 Math.random() 后面的第一个数字为图片的数量
   bgUrl.value = `/images/background${Math.floor(Math.random() * 10 + 1)}.webp`;
 }
