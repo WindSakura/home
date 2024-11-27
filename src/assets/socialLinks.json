@@ -3,9 +3,10 @@
     "name": "Github",
     "icon": "/images/icon/github.png",
     "tip": "去 Github 看看",
-    "url": "https://github.com/imsyy"
+    "url": "https://github.com/WindSakura"
   },
   {
+    /*
     "name": "BiliBili",
     "icon": "/images/icon/bilibili.png",
     "tip": "(゜-゜)つロ 干杯 ~",
@@ -34,5 +35,6 @@
     "icon": "/images/icon/telegram.png",
     "tip": "你懂的 ~",
     "url": "https://t.me/bottom_user"
+    */
   }
 ]

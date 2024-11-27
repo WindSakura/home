@@ -2,9 +2,10 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.imsyy.top/"
+    "link": "https://blog.xn--7ovr3tf1cxr4d.eu.org/"
   },
   {
+    /*
     "icon": "Cloud",
     "name": "网盘",
     "link": "https://pan.imsyy.top/"
@@ -33,5 +34,6 @@
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://status.imsyy.top/"
+    */
   }
 ]
