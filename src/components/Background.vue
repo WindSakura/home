@@ -38,10 +38,17 @@ const bgRandom = Math.floor(Math.random() * 10 + 1);
 
 // 更换壁纸链接
 const changeBg = (type) => {
-if (type == 0) {
-  // 修改此处 Math.random() 后面的第一个数字为图片的数量
-  bgUrl.value = `/images/background${Math.floor(Math.random() * 10 + 1)}.webp`;
-}
+  if (type == 0) {
+    bgUrl.value = `/images/background${Math.floor(
+      Math.random() * 10 + 1
+    )}.webp`;
+  } else if (type == 1) {
+    bgUrl.value = "https://api.dujin.org/bing/1920.php";
+  } else if (type == 2) {
+    bgUrl.value = "https://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images";
+  } else if (type == 3) {
+    bgUrl.value = "https://www.dmoe.cc/random.php";
+  }
 };
 
 // 图片加载完成
