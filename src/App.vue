@@ -124,6 +124,7 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener("resize", getWidth);
 });
+</script>
 
 <style lang="scss" scoped>
 #main {
